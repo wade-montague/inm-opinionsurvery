@@ -4,8 +4,8 @@ $action = (isset($_POST['action'])) ? $_POST['action'] : (isset($_REQUEST["actio
 $placement = (isset($_POST['placement'])) ? $_POST['placement'] : (isset($_REQUEST["placement"]))?$_REQUEST["placement"]:'';    //advertiser placement
 $actioncounter = (isset($_POST['actioncounter'])) ? $_POST['actioncounter'] : (isset($_REQUEST["actioncounter"]))?$_REQUEST["actioncounter"]:'';   //actioncounter number
 
+//create url for impression passthru
 $urlAddress = "https://impressions.crunchiemedia.com/?a=opinionsurvey&b=".$action."&c=".$placement."&d=".$actioncounter;
-
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
