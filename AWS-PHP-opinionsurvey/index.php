@@ -40,6 +40,7 @@
         window.objGlobal.strPlacement = "<?php echo (isset($_GET['p']) ? $_GET['p'] : '' ); ?>";        
         window.objGlobal.intActionCounter = 0;
         window.objGlobal.intPageCounter  = 1;
+        window.objGlobal.strParams  = 1;
         </script>
 
         <!--Main Scripts-->
