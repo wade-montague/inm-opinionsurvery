@@ -56,6 +56,7 @@
                         <div class="col-lg-8 col-xs-10 heading-info text-left">
                             <p>2016 Annual Visitor Survey <span class="country"></span></p>
                             <h2>Internet Service Opinion Survey</h2>
+                            <a href="login">Login</a>
                         </div>
                     </div>
 
